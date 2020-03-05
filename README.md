@@ -14,7 +14,7 @@ Mac $ docker run -d --rm -p 8080:80 chess
 
 Access the Chess App using a browser: http://127.0.0.1:8080
 
-![](./chess.png)
+![](./chess.jpg)
 
 To stop the Docker Chess program, follow this example:
 
