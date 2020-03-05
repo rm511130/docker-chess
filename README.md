@@ -1,6 +1,7 @@
 # Docker-Chess
 
-We can run the Chess PHP App using Docker. 
+Let's run my Chess PHP App using Docker.
+
 Make sure you have Docker installed and running on your Mac and follow the steps below:
 
 ```
