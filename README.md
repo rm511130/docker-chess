@@ -27,7 +27,7 @@ CONTAINER ID   IMAGE  COMMAND                  CREATED              STATUS      
 docker stop 1eaebd33e42b
 ```
 
-# Now let's push the Docker image of Chess to the Docker Hub
+# Pushing our Docker image of Chess to the Docker Hub
 
 These are the steps I executed to upload the Docker Chess App image from my Mac to my Docker Hub repo:
 
@@ -45,7 +45,7 @@ docker run -d -p 8080:80 rmeira/chess
 And access the Chess App using a browser: http://127.0.0.1:8080
 
 
-# Now let's run Docker-Chess on a Kubernetes Cluster
+# Running Docker-Chess on a Kubernetes Cluster
 
 In the example below, I'm using a [TKGI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/index.html) K8s cluster that was previously created. The name of the cluster is `large`.
 
