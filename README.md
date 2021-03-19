@@ -125,7 +125,9 @@ NAME                                 STATUS ROLES   AGE   VERSION            INT
 b9a17e95-1b1d-40f9-b6d3-39e533969904 Ready  <none>  20d   v1.19.6+vmware.1   10.0.7.12     10.0.7.12  Ubuntu 16.04.7 LTS   4.15.0-133-generic   docker://19.3.14
 ```
 
-Take any `External-IP` address of a Worker Node, for example `10.0.7.17` and use port `30438` obtained above as the output of the `kubectl get service` command: 
+Take any `External-IP` address of a Worker Node, for example `10.0.7.17`, and use port `30438` which can be found in the output of the `kubectl get service` command. 
+
+Now open a browser per the example below:
 
 ```
 open http://10.0.7.17:30438
@@ -133,6 +135,6 @@ open http://10.0.7.17:30438
 
 _Le voilà!_
 
-![](./images/docker-chess.png)
+![](./images/chess-nodeport.png)
 
 
