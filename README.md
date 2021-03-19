@@ -135,6 +135,6 @@ open http://10.0.7.17:30438
 
 _Le voilà!_
 
-![](./images/chess-nodeport.png)
+![](./images/chess-v2.png)
 
 
